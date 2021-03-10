@@ -237,7 +237,7 @@ html {
         padding: 30px;
     }
 }
-@media (max-wisth: 660px){
+@media (max-width: 660px){
 	.section-info-text-block {
 		padding: 10px;
 	}
@@ -590,10 +590,6 @@ html {
 	}
 }
 @media (max-width: 375px) {
-	/* 
-
-
-     */
 	.h2-aged-wine {
 		font-size: 24px;
 		line-height: 150%;
@@ -611,11 +607,6 @@ html {
 	.section-info-text-block .hr {
 		margin: 20px;
 	}
-	/* 
-
-
-
-     */
 }
 @media (max-width: 710px) {
 	.div-footer-container {
@@ -625,10 +616,6 @@ html {
 		font-size: 11px;
 		line-height: 150%;
 	}
-	.footer-link {
-	}
-	.nav-footer {
-	}
 	.footer {
 		grid-template-areas: "footer-nav footer-nav" ". ." ". .";
 		grid-template-columns: repeat(2, 1fr);
@@ -636,7 +623,6 @@ html {
 		height: 100%;
 	}
 	.ul-footer-nav-list {
-		/* justify-content: space-around; */
 		flex-wrap: wrap;
 	}
 	.li-footer-nav-list-item {
